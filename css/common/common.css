@@ -5,7 +5,8 @@
 
 /* 컨테이너 */
 .container{
-    background-color: yellow;
+    background-color: #ccc;
+    background-image: linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 60%, #fff 100%);
 }
 
 /* 레이아웃 */
@@ -17,10 +18,26 @@
 
 /* 헤더 */
 .header{
+    background-color: #fff;
     background-color: pink;
-    height: 10vh;
+  height:10vh;
+    position: relative;
+    padding: 2px 30px 10px;
+    right: -0.5em;
+    border-radius: 0 0 15px 15px;
 }
-
+/* 로고 */
+.logo{
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+/* 멤버링크 */
+.member a{ 
+  display:inline-block;
+  text-transform: uppercase;  
+  padding: 0.5em;
+}
 /* 비쥬얼 */
 .visual{
     background-color: lime;
@@ -28,15 +45,11 @@
 }
 /* 메인컨텐츠 */
 .main{
-    background-color: blue;
+    background-color: #fff;
     padding: 30px 15px;
 }
 /* 그룹 */
-.group{
-    margin: 0 15px;
-    float:left;
-    min-height: 400px;
-}
+
 .group1{
     background-color: silver;
     width: 250px;
@@ -55,7 +68,12 @@
     height: 10vh;
 }
 /* 푸터 */
+.footer-bg{
+  background-color: #ccc;  
+  background-image: linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 60%, #fff 100%);
+}
 .footer{
     background-color: violet;
     height: 10vh;
 }
+
