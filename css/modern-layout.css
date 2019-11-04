@@ -4,6 +4,7 @@
   justify-content: flex-end;
   position: relative;
   right: -0.5em;
+  /* background: red; */
 }
 /* 메인컨텐츠 */
 .main{

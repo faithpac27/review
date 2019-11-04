@@ -1,30 +1,30 @@
 /* 기본 box-sizing 정의 */
 *, *::before, *::after{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* 컨테이너 */
 .container{
-    background-color: #ccc;
-    background-image: linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 60%, #fff 100%);
+  background-color: #ccc;
+  background-image: linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 60%, #fff 100%);
 }
 
 /* 레이아웃 */
 .header, .visual, .main, .slogan, .footer{
-    width: 940px;
-    margin-left: auto; 
-    margin-right: auto;
+  width: 940px;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 /* 헤더 */
 .header{
-    background-color: #fff;
-    background-color: pink;
+  background-color: #fff;
+  background-color: pink;
   height:10vh;
-    position: relative;
-    padding: 2px 30px 10px;
-    right: -0.5em;
-    border-radius: 0 0 15px 15px;
+  position: relative;
+  padding: 2px 30px 10px;
+  right: -0.5em;
+  border-radius: 0 0 15px 15px;
 }
 /* 로고 */
 .logo{
@@ -40,27 +40,27 @@
 }
 /* 비쥬얼 */
 .visual{
-    background-color: lime;
-    height: 120px;
+  background-color: lime;
+  height: 120px;
 }
 /* 메인컨텐츠 */
 .main{
-    background-color: #fff;
-    padding: 30px 15px;
+  background-color: #fff;
+  padding: 30px 15px;
 }
 /* 그룹 */
 
 .group1{
-    background-color: silver;
-    width: 250px;
+  background-color: silver;
+  width: 250px;
 }
 .group2{
-    background-color: tan;
-    width: 380px;
+  background-color: tan;
+  width: 380px;
 }
 .group3{
-    background-color: teal;
-    width: 190px;
+  background-color: teal;
+  width: 190px;
 }
 /* 슬로건 */
 .slogan{
@@ -73,7 +73,7 @@
   background-image: linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 60%, #fff 100%);
 }
 .footer{
-    background-color: violet;
-    height: 10vh;
+  background-color: violet;
+  height: 10vh;
 }
 
